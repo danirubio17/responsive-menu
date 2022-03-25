@@ -9,6 +9,7 @@
 #header2 {
   background-color: #464646;
   color: white;
+  position: relative;
 
 }
 
@@ -58,8 +59,9 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
+  margin-top: 30px;
 }
 
 /* Change the color of links on hover */
@@ -72,6 +74,7 @@
 .topnav a.active {
   background-color: white;
   color: black;
+  margin-left: 550px;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -100,7 +103,7 @@
 .text-block {
   position: absolute;
   bottom: 180px;
-  right: 800px;
+  right: 750px;
   background-color: black;
   color: white;
   padding-left: 40px;
@@ -155,4 +158,131 @@
 
 .texto1 {
   text-align: center;
+}
+
+.texto2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.texto3 {
+  text-align: center;
+  margin-top: 20px;
+  color: #00a8ff;
+}
+
+.texto4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.telefono {
+  max-height: 50px;
+  max-width: 160px;
+  height: 30px;
+  width: 40px;
+  top: 1550px;
+  right: 980px;
+  position: absolute;
+}
+
+.container3 {
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: #e6e9eb;
+}
+
+.tick {
+  max-height: 50px;
+  max-width: 160px;
+  height: 40px;
+  width: 40px;
+  right: 1600px;
+  top: 50px;
+  position: absolute;
+}
+
+.texto5 {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+
+.texto6 {
+  position: absolute;
+  left: 250px;
+  top: 80px;
+  color: gray;
+}
+
+.tick2 {
+  max-height: 50px;
+  max-width: 160px;
+  height: 40px;
+  width: 40px;
+  right: 1600px;
+  top: 190px;
+  position: absolute;
+}
+
+.texto7 {
+  position: absolute;
+  left: 250px;
+  top: 190px;
+}
+
+.texto8 {
+  position: absolute;
+  left: 250px;
+  top: 220px;
+  color: gray;
+}
+
+.tick3 {
+  max-height: 50px;
+  max-width: 160px;
+  height: 40px;
+  width: 40px;
+  left: 1100px;
+  top: 50px;
+  position: absolute;
+}
+
+.texto9 {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.texto10 {
+  position: absolute;
+  left: 1179px;
+  top: 80px;
+  color: gray;
+}
+
+.tick4 {
+  max-height: 50px;
+  max-width: 160px;
+  height: 40px;
+  width: 40px;
+  left: 1100px;
+  top: 190px;
+  position: absolute;
+}
+
+.texto11 {
+  position: absolute;
+  right: 500px;
+  top: 190px;
+}
+
+.texto12 {
+  position: absolute;
+  left: 1170px;
+  top: 220px;
+  color: gray;
 }
