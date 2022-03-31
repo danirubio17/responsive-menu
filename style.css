@@ -286,3 +286,110 @@
   top: 220px;
   color: gray;
 }
+
+#cartas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.card-subtitle {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.card-footer {
+  margin-top: 30px;
+  color: #00a8ff;
+}
+
+.card-image1 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 150px;
+}
+
+.card-title {
+text-align: center;
+margin-top: 20px;
+}
+
+
+.card-subtitle2 {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
+
+.card-footer2 {
+  text-align: center;
+}
+
+.card2 {
+  margin-top: 50px;
+}
+
+.card-footer2 {
+  margin-top: 30px;
+  color: #00a8ff;
+}
+
+.card-image2 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 150px;
+}
+
+.card-title2 {
+text-align: center;
+margin-top: 20px;
+}
+
+.card-subtitle3 {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
+
+.card-footer3 {
+  text-align: center;
+}
+
+.card3 {
+  margin-top: 50px;
+}
+
+.card-footer3 {
+  margin-top: 30px;
+  color: #00a8ff;
+}
+
+.card-image3 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 150px;
+}
+
+.card-title3 {
+text-align: center;
+margin-top: 20px;
+}
+
+.container4 {
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: #e6e9eb;
+}
