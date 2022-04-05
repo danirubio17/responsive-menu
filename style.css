@@ -390,7 +390,7 @@ margin-top: 20px;
   margin-top: 40px;
   text-align: center;
   width: 100%;
-  height: 500px;
+  height: 800px;
   background-color: #e6e9eb;
 }
 
@@ -422,8 +422,206 @@ margin-top: 20px;
 .bloque1 {
   position: absolute;
   margin-top: 150px;
-  margin-left: 40px;
-  width: 400px;
+  margin-left: 250px;
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  padding-left: 4em;
+  padding-right: 3em;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  text-align: center;
+  line-height : 30px;
+  color: gray;
+}
+
+.bloque2 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 900px;
+  width: 600px;
+  height: 500px;
+  background-color: white;
+  padding-left: 4em;
+  padding-right: 3em;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  text-align: center;
+  line-height : 30px;
+  color: gray;
+}
+
+.triangulo-1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-left: 40px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  margin-top: 510px;
+  margin-left: 300px;
+  transform: rotate(220deg);
+}
+
+.triangulo-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-left: 40px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  margin-top: 610px;
+  margin-left: 950px;
+  transform: rotate(220deg);
+}
+
+.joonas {
+  position: absolute;
+  margin-top: 590px;
+  margin-left: 290px;
+  font-size: 18px;
+}
+
+.mary {
+  position: absolute;
+  margin-top: 690px;
+  margin-left: 940px;
+  font-size: 18px;
+}
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 30px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: orange;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  position: absolute;
+  margin-top: 620px;
+  margin-left: 290px;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+.clasificacion2 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  position: absolute;
+  margin-top: 720px;
+  margin-left: 940px;
+}
+
+.gris1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  margin-left: 250px;
+  margin-top: 180px;
+}
+
+.gris2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  margin-left: 900px;
+  margin-top: 180px;
+}
+
+.container5 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+
+.texto5-1 {
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 43%;
+}
+
+.texto5-2 {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 33%;
+}
+
+.texto5-3 {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 120px;
+  margin-left: 37%;
+}
+
+.texto5-4 {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 160px;
+  margin-left: 45%;
+}
+
+.texto5-5 {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 200px;
+  margin-left: 41%;
+}
+
+.abajo1 {
+  position: absolute;
   height: 300px;
-  background-color: red;
+  width: 400px;
+  margin-top: 300px;
+  left: 100px;
+}
+
+.abajo2 {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  margin-top: 300px;
+  left: 550px;
+}
+
+.container6 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: gray;
 }
